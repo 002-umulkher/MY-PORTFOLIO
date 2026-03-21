@@ -403,3 +403,194 @@ overflow: hidden;
   color: #c7c1c1;
   font-size: 0.9rem;
 }
+
+/* ---------- Responsive Layout ---------- */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    margin: 2.4rem;
+  }
+
+  .hero h1 {
+    font-size: 4.2rem;
+  }
+
+  .hero p {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .open-navbar-icon {
+    top: 3rem;
+    left: 3rem;
+  }
+
+  .navbar-wrapper {
+    padding: 2.5rem;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .nav-link {
+    font-size: 2.6rem;
+    width: auto;
+    padding: 1rem 2rem;
+  }
+
+  .hero {
+    height: 70vh;
+  }
+
+  .hero h1 {
+    font-size: 3.6rem;
+  }
+
+  .hero p {
+    font-size: 1.6rem;
+  }
+
+  .about-section,
+  .projects-section,
+  .main-footer {
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+
+  .about-content {
+    gap: 3rem;
+  }
+
+  .skills-box,
+  .about-text {
+    min-width: 100%;
+  }
+
+  .projects-grid {
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 2.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .container {
+    margin: 1.2rem;
+  }
+
+  .open-navbar-icon {
+    width: 4.8rem;
+    height: 4.8rem;
+    top: 2rem;
+    left: 2rem;
+  }
+
+  .hero {
+    height: 65vh;
+    padding: 0 1.6rem;
+  }
+
+  .hero h1 {
+    font-size: 3.1rem;
+    line-height: 1.2;
+  }
+
+  .hero p {
+    font-size: 1.5rem;
+    max-width: 48rem;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    padding: 1rem 2rem;
+  }
+
+  .about-section,
+  .projects-section {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  .about-text h2,
+  .section-title {
+    font-size: 2.2rem;
+  }
+
+  .project-info {
+    padding: 2rem;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+
+  .social-icons {
+    flex-wrap: wrap;
+    gap: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 53%;
+  }
+
+  .navbar-wrapper {
+    padding: 1.6rem;
+  }
+
+  .close-navbar-icon {
+    right: 2.2rem;
+  }
+
+  .nav-link {
+    font-size: 2.1rem;
+  }
+
+  .hero {
+    height: 62vh;
+  }
+
+  .hero h1 {
+    font-size: 2.6rem;
+  }
+
+  .hero p {
+    font-size: 1.4rem;
+    margin-bottom: 2.2rem;
+  }
+
+  .about-section,
+  .projects-section,
+  .main-footer {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .skills-box {
+    padding: 2rem;
+  }
+
+  .project-image img,
+  .placeholder-img {
+    height: 170px;
+  }
+
+  .tags span {
+    display: inline-block;
+    margin-bottom: 0.6rem;
+  }
+}
