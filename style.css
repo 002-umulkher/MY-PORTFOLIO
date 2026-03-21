@@ -159,7 +159,7 @@ overflow: hidden;
 
 .hero {
   height: 80vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), 
               url(./images/blue.avif) no-repeat center center/cover;
   display: flex;
   flex-direction: column;
