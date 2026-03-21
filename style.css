@@ -179,10 +179,11 @@ overflow: hidden;
 }
 
 .hero p {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: 300;
   margin-bottom: 30px;
-  letter-spacing: 1px;
+  letter-spacing: 0.6px;
+  line-height: 1.8;
 }
 
 .btn-primary {
@@ -223,6 +224,21 @@ overflow: hidden;
   line-height:1.6;
   font-family: sans-serif;
   font-size: medium;
+}
+
+.about-text p,
+.project-info p,
+.service-card p,
+.footer-logo p {
+  font-size: 1.7rem;
+  line-height: 1.85;
+  letter-spacing: 0.2px;
+}
+
+.about-text p,
+.project-info p,
+.service-card p {
+  margin-bottom: 1.4rem;
 }
 
 .about-text h2 {
@@ -280,7 +296,7 @@ overflow: hidden;
 
 .service-card p {
   color: #666;
-  line-height: 1.6;
+  line-height: 1.85;
 }
 
 
@@ -562,6 +578,7 @@ img {
   .hero p {
     font-size: 1.5rem;
     max-width: 48rem;
+    line-height: 1.7;
   }
 
   .btn-primary,
@@ -623,6 +640,15 @@ img {
   .hero p {
     font-size: 1.4rem;
     margin-bottom: 2.2rem;
+    line-height: 1.6;
+  }
+
+  .about-text p,
+  .project-info p,
+  .service-card p,
+  .footer-logo p {
+    font-size: 1.5rem;
+    line-height: 1.75;
   }
 
   .about-section,
