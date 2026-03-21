@@ -349,7 +349,7 @@ overflow: hidden;
 }
 
 .main-footer {
-  background-color:#083c75;
+  background-color:#052e5a;
   color: #ffffff;
   padding: 60px 10% 20px;
   margin-top: 50px;
@@ -361,18 +361,18 @@ overflow: hidden;
   align-items: flex-start;
   flex-wrap: wrap;
   gap: 40px;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #fff;
   padding-bottom: 40px;
 }
 
 .footer-logo h3 {
   font-size: 1.8rem;
-  color: #007bff;
+  color: #549eee;
   margin-bottom: 10px;
 }
 
 .footer-logo p {
-  color: #7a7676;
+  color:#ffff;
   max-width: 300px;
 }
 
@@ -394,7 +394,7 @@ overflow: hidden;
 }
 
 .social-icons a:hover {
-  color: #007bff;
+  color: #e62020;
 }
 
 .footer-bottom {
